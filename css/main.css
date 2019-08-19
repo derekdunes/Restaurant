@@ -1,0 +1,776 @@
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container {
+  padding: 0 30px;
+}
+
+.row {
+  display: block;
+}
+
+.col-1 {
+  width: 5%
+}
+
+.col-10 {
+  width: 10%
+}
+
+.col-8-1 {
+  width: 88.99%;
+}
+
+.col-full {
+  width: 100%;
+}
+
+.col-1-2
+{
+  width: 50%
+}
+
+.col-3 {
+  width: 20%
+}
+
+.col-7 {
+  width: 70%;
+}
+
+.col-8 {
+  width: 78.99%;
+}
+
+.col-2 {
+  width: 30%
+}
+
+.col-1-3 {
+  width: 40%;
+}
+
+.col-2-3 {
+  width: 60%;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-7,
+.col-8,
+.col-10,
+.col-8-1,
+.col-1-2,
+.col-1-3,
+.col-2-3,
+.col-full{
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+
+body {
+  color: #333;
+  font: 300 16px/22px 'Montserrat', sans-serif, "Open Sans", "Helvetica Neue", Helvetica, Arial;
+
+}
+
+h1, h3, h4, h5, p, .rating {
+  margin-bottom: 11px;
+}
+
+h1 {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+h2 {
+  font-size: 13px;
+  line-height: 22px;
+}
+
+h3 {
+  font-size: 9px;
+}
+
+h5 {
+  font-size: 7px;
+  font-weight: 400;
+}
+
+strong {
+  font-weight: 400;
+}
+
+cite, em {
+  font-style: italic;
+}
+
+/*
+  ========================================
+  Buttons
+  ========================================
+*/
+
+.btn {
+  background: #b6172a;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  letter-spacing: .5px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.btn-alt, #btn-ops {
+  padding: 10px 30px
+}
+
+.btn-alt:hover, #btn-ops:hover {
+  background: #fff; 
+  color: #b6172a; 
+}
+
+/*
+  ========================================
+  TopBar
+  ========================================
+*/
+
+.main-nav li {
+  margin: 0;
+}
+
+.nav-links {
+  margin-left: 40px;
+}
+
+.logo {
+  margin-top: 0;
+}
+
+.logo {
+  display: inline-block;
+  font-size: 22px;
+  margin-left: 20px;
+}
+
+.navbar-toggle {
+  display: none;
+}
+
+.logo:hover,
+.nav-links:hover {
+    color: #fff;
+}
+
+.navbar {
+  font-size: 18px;
+  background-color: #fff;
+  padding-bottom: 10px;
+}
+
+.main-nav {
+  list-style-type: none;
+}
+
+.logo,
+.nav-links {
+  text-decoration: none;
+  color: #000;
+}
+
+/*
+  ========================================
+  Banner
+  ========================================
+*/
+
+
+  .banner, .contact {
+    text-align: center;
+    color: #fff;
+    background-image: url("../images/bg1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .banner {
+    height: 350px;
+  }
+
+  .mini-banner, .mini-contact {
+      height: 100%;
+      width: 100%;
+      background-color: rgba(0,0,0,0.5);
+      background: linear-gradient(27deg, rgba(51, 51, 51, 0.6) 100%, rgba(51, 51, 51, 0) 2%);    
+  }
+
+  .content {
+    padding-top: 2%;
+  }
+
+  .content h1, .story h1, .ingre h1, .meal-group h1, .testimonial h1, .more-info h1 {
+    font-family: 'Satisfy', cursive;
+  }
+
+  .content h1 {
+    font-size: 64px;
+    line-height: 70px;
+  }
+
+  .content h3 {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 0 30%;
+  }
+
+  .content h1, .content h3{
+    margin-bottom: 2%;  
+  }
+
+.banner a {
+    font-size: 15px;
+    line-height: 21px;
+    padding: 5px 15px;
+    text-transform: none;
+}
+
+#btn, #btn-alt, #bts {
+    width: 120px;
+}
+
+#btn-ops {
+  width: 180px;
+}
+
+.line {
+  border-top: 1px solid #C39D63;
+  margin: 0 100px;
+}
+
+#btn, #btn-alt, #bts, #btn-ops {
+  height: 30px;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+#btn {
+    color: #fff;
+    border: 2px solid #fff;
+    background-color: rgba(0,0,0,0.1);    
+    margin-left: 70%;
+}
+
+#btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+#btn-alt, #bts, #btn-ops {
+  background-color: #C39D63;
+  color: #fff;
+  border: 2px solid #C39D63;
+}
+
+#btn-alt {
+  margin-right: 70%;
+}
+
+#btn-alt:hover, #bts:hover, #btn-ops:hover {
+  background-color: #fff;
+  color: #C39D63; 
+  border: 2px solid #fff;
+}
+
+/*
+  ========================================
+  Story
+  ========================================
+*/
+
+.story {
+  height: 570px;
+  padding-top: 2%;
+}
+
+.side-story, .ingre, .testimonial, .more-info {
+  padding-top: 2%;
+}
+
+.side-story h5, .ingre h5, .testimonial h5, .more-info h5 {
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 22px; 
+}
+
+.side-story h1, .ingre h1, .testimonial h1, .more-info h1 {
+  font-size: 46px;
+  line-height: 52px;
+}
+
+.side-story b, .ingre b, .testimonial b, .more-info b {
+    border-bottom: 2px solid #C39D63;
+  }
+
+.side-img {
+    background-image: url("../images/side-bg.jpg");
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*
+  ========================================
+  Fresh Ingredient
+  ========================================
+*/
+
+.ingre {
+  text-align: center;
+  background-color: #F7F7F7;
+  height: 300px;
+}
+
+.ingre p {
+
+  padding-bottom: 11px;
+
+}
+
+
+/*
+  ========================================
+  Meal List
+  ========================================
+*/
+
+.meals {
+  background-color: #1F1F1F;
+  text-align: center;
+}
+
+.img-1 {
+  background-image: url("../images/grilled-fillet.jpg");
+      background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-2 {
+  background-image: url("../images/pork-chops.jpg");
+      background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-3 {
+  background-image: url("../images/chicken-waffles.jpg");
+      background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-4 {
+  background-image: url("../images/casserole.jpg");
+      background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-5 {
+  background-image: url("../images/Cherry-Chicken-Croissants.jpg");
+      background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-6 {
+  background-image: url("../images/tacos.jpeg");
+      background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-1, .img-2, .img-3, .img-4, .img-5, .img-6,{
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.meal-group div {
+  height: 300px;
+}
+
+.meal-group h5{
+
+  color:#C39D63;     
+  font-size: 18px;
+  line-height: 24px;
+
+}
+
+.meal-group h1 {
+  font-size: 28px;
+  line-height: 32px;
+}
+
+.write-up {
+  background-color: #fff;
+}
+
+
+/*
+  ========================================
+  Testimonial
+  ========================================
+*/
+
+.testimonial {
+  text-align: center;
+  background-color: #fff;
+  height: 450px
+}
+
+
+.testimonial h1 {
+  padding-bottom: 22px
+}
+
+.star-rating {
+  background-image: url("../images/5star.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 20px;
+}
+
+/*
+  ========================================
+  More Info
+  ========================================
+*/
+
+.more-info {
+  text-align: center;
+  background-color: #F7F7F7;
+  padding: 20px 0;
+}
+
+.card-img-1 {
+  background-image: url("../images/img-1.jpg");
+}
+
+.card-img-2 {
+  background-image: url("../images/img-2.jpg");
+}
+
+.card-img-3 {
+  background-image: url("../images/img-3.jpg");
+}
+
+.card-img-1, .card-img-2, .card-img-3  {
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-detail {
+  background-color: #fff;
+  text-align: left;
+  padding: 11px 15px;
+}
+
+.card-detail h1, .operation h1, .drop h1 {
+  font-size: 22px;
+}
+
+.card-detail h4 {
+  color: #C39D63;
+  
+}
+
+.card-detail h4, .operation h4 {
+  margin-top: 11px;
+}
+
+
+.card-group {
+  margin: 11px 15px 22px 15px;
+}
+
+/*
+  ========================================
+  Contact
+  ========================================
+*/
+
+.contact {
+  height: 650px;
+  text-align: center;
+}
+
+.tact {
+  padding-top: 2%
+}
+
+.drop, .operation {
+  background-color: #1F1F1F;
+  color: #fff;
+  height: 500px;
+  padding-top: 20px
+}
+
+.drop h4 {
+  margin-bottom: 22px;
+}
+
+.operation h1, .operation p{
+  margin-bottom: 22px
+}
+
+.butt, .btn-ops, .bts {
+  color: #fff;
+  background-color: #C39D63;
+  border: 1px solid #C39D63
+}
+
+.butt {
+  width: 75%;
+}
+
+.btn-ops {
+  width: 50%
+}
+
+.bts {
+  width: 20%;
+}
+
+.input, .butt, .btn-ops, .bts {
+    height: 40px;
+  }
+
+  .input {
+    width: 73%;
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #000;
+    margin-bottom: 2%;
+    padding-left: 2%;
+  }
+
+
+
+
+
+/*
+  ========================================
+  Footer
+  ========================================
+*/
+.foot {
+  background-color: #000;
+  color: #F7F7F7;
+  padding: 25px 15px 0 15px;
+  height: 60px;
+
+}
+
+.desc-foot {
+  text-align: left;
+}
+
+.follow-foot {
+  text-align: right;
+}
+
+.footer-list ul::-webkit-scrollbar {
+    display: none;
+}
+
+.follow-foot li {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.follow-foot li {
+  margin: 0 5%;
+}
+
+.whitebg {
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #000
+}
+
+/*
+  ========================================
+  Mobile First
+  ========================================
+*/
+
+/* Default styles first then media queries */
+@media screen and (max-width: 768px) {
+  #btn-alt {
+    margin-right: 5%
+  }
+
+  #btn {
+    margin-left: 5%;
+  }
+
+  #btn, #btn-alt {
+    width: 100px;
+  }
+
+  #btn-alt {
+    padding: 5px 15px 5px 5px; 
+  }
+
+  .content {
+    padding-top: 10%; 
+  }
+
+  .content h3 {
+    padding: 0 5%;
+  }
+
+  .content h1, .side-story h1, .testimonial h1, .more-info h1 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .side-story h5, .testimonial h5, .more-info h5 {
+
+    font-size: 12px;
+    line-height: 18px;
+  
+  }
+
+  .content h1, .content h3{
+    margin-bottom: 5%;  
+  }
+
+  .bts {
+    width: 40%;
+  }
+
+
+  .test,
+  .drop,
+  .img-1,
+  .img-2,
+  .img-3,
+  .img-4,
+  .img-5,
+  .img-6,
+  .side-img, 
+  .write-up,
+  .side-story,
+  .card-group,
+  .operation {
+    width: 100%
+  }
+
+  .story, .ingre, .meals, .testimonial, .more-info, .contact {
+      height: 100%;
+      padding-bottom: 5%;
+      text-align: center;
+  }
+
+  .side-story b {
+    border-bottom: 2px solid #C39D63;
+  }
+
+  .card-detail h1 {
+    font-size: 18px;
+  }
+
+  .card-detail h4 {
+    font-size: 12px
+  }
+
+.logo {
+    margin-top: 10px;
+}
+.main-nav {
+  padding: 0;
+  list-style-type: none;
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.main-nav li {
+  text-align: center;
+  margin: 15px auto;
+}
+
+
+.navbar-toggle {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+  color: #000;
+  font-size: 24px;
+  display: block;
+}
+
+}
+
+@media screen and (min-width: 768px) { 
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 0;
+      height: 40px;
+      align-items: center;
+    }
+
+
+    .main-nav {
+      display: flex;
+      margin-right: 30px;
+      flex-direction: row;
+      justify-content: flex-end;
+    }
+
+    .main-nav li {
+      margin: 0 2%
+    }
+
+
+}
+
